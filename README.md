@@ -30,10 +30,11 @@ df.describe()
 ax = sns.scatterplot(x='Population', y='Profit', data = df)
 ax.set_title('Profit vs Population')
 
+Este es el diagrama de dispersión
 ![](img/grap_1.JPG)
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%24%24J%28%5Ctheta%29%20%3D%20%5Cfrac%7B1%7D%7B2m%7D%20%5Csum_%7Bi%3D1%7D%5Em%20%28h_%5Ctheta%28x%5E%7B%28i%29%7D%29%20-%20y%5E%7B%28i%29%7D%20%29%5E2%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$J(\theta) = \frac{1}{2m} \sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)} )^2$$" width="249" height="28" />
-
+Ahora calculemos la funcíon de pérdida  para iniciar nuestra regresión
+![img/Latex_1.JPG]
 
 
 
