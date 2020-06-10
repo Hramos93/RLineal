@@ -29,6 +29,7 @@ df.describe()
 ``` python 
 ax = sns.scatterplot(x='Population', y='Profit', data = df)
 ax.set_title('Profit vs Population')
+```
 
 Este es el diagrama de dispersión
 ![](img/grap_1.JPG)
