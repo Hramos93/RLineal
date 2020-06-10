@@ -32,7 +32,7 @@ ax.set_title('Profit vs Population')
 ```
 
 Este es el diagrama de dispersión
-![](img/grap_1.JPG =300x300) 
+![](img/grap_1.JPG |width ) 
 
 Ahora calculemos la funcíon de pérdida  para iniciar nuestra regresión
 
