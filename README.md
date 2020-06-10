@@ -16,7 +16,7 @@ import seaborn as sns
 df  = pd.read_txt(data)
 df.head() 
 ```
-<img src=“https://github.com/Hramos93/RLineal/blob/master/img/describe.JPG”>
+![](img/head.JPG)
 Ahora podemos revisar algunas métricas con 
 
 ```python
