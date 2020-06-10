@@ -25,9 +25,9 @@ def cost_function(X, y, theta):
     
     return 1 / (2 * m) * np.sum(error)
 
-m = data.Poblacion.values.size
-X = np.append(np.ones((m, 1)), data.Poblacion.values.reshape(m, 1), axis=1)
-y = data.M_total.values.reshape(m, 1)
+m = df.Population.values.size
+X = np.append(np.ones((m, 1)), df.Population.values.reshape(m, 1), axis=1)
+y = df.Profit.values.reshape(m, 1)
 theta = np.random.rand(2,1)
 
 cost_function(X, y, theta)
