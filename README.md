@@ -49,13 +49,13 @@ df cost_function(X, y, theta)
 Puedes ver como ajusto los valores de la función en el código del repositorio
 
 ```python
-#Este resultado es aleatorio, en los ajustes delas variables genero un theta o peso para cada variable de manera aletoria
+#Este resultado es aleatorio puedes iterar varias veces, en los ajustes de las variables genero un theta o peso para cada variable de manera aletoria.
 cost_function(X, y, theta)
 13.87542580835085
 ```
 Sin bien hemos calculado la pérdida no es un valor del todo efectivo, podemos optimizarlo aún más con una función gradient descent.
 
-![](img\Latex_2.JPG)
+![](img/Latex_2.JPG)
 
 esto en python puede ser escrito de esta manera
 ```python 
