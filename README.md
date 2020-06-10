@@ -110,7 +110,7 @@ ax.view_init(30,330)
 plt.show()
 ```
 
-![](img/graph_2)
+![](img/graph_2.JPG)
 
 
 
